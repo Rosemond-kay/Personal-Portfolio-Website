@@ -1,0 +1,17 @@
+/* Mobile Navigation - Tablets and smaller screens */
+@media screen and (min-width: 1201px) {
+    #hamburger-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    
+    #hamburger-nav {
+        display: flex;
+    }
+    
+}
